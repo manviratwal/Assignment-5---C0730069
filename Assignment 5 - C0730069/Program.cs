@@ -17,6 +17,7 @@ namespace Assignment_5___C0730069
             }
             public int Gematria(string word)
             {
+
                 int GematriaValue = 0;
                 for (int i = 0; i < word.Length; i++)
                 { GematriaValue += LetterValue(word[i].ToString()); }
